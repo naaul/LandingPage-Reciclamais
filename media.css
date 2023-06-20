@@ -1,0 +1,58 @@
+@media screen and (max-width: 660px) {
+    img{
+        display: none;
+    }
+
+    header{
+        flex-direction: column;
+    }
+
+    #title{
+        margin-bottom: 0px;
+        text-align: center;
+    }
+
+    li{
+        font-size: 13px;
+        margin: 8px;
+        
+        
+    }
+
+    ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 30px;
+    }
+
+    h1{
+        font-size: 45px;
+        text-align: left;
+        line-height: 55px;
+        width: 350px;
+        margin-top: 5px;
+    }
+
+    #left-side{
+        align-items: left;
+    }
+
+    #paragrafo{
+        font-size: 12px;
+        width: 80%;
+    }
+
+    .input{
+        width: 280px;
+    }
+
+    #submit-button{
+        width: 142px;
+    }
+
+    body{
+        width: 350px;
+        margin-left: 20px;
+    }
+}

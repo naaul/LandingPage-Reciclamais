@@ -1,0 +1,123 @@
+body{
+    background-color: #1a1a1a;
+    color: white;
+    max-width: 1200px;
+    padding: 0 auto;
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#title{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+span{
+    color: #16FF00;
+}
+
+li{
+    display: inline-block;
+    margin: 12px;
+    color: white;
+    font-size: 17px;
+}
+
+li:hover{
+    color: #16FF00;
+    transition: 0.4s all;
+}
+
+#possui-cadastro{
+    border: 2px solid;
+    border-color: #16FF00;
+    border-radius: 20px;
+    padding: 12px;
+}
+
+#possui-cadastro:hover{
+    background-color: #16FF00;
+    color: white;
+    font-weight: bold;
+}
+
+
+h1{
+    font-size: 70px;
+    line-height: 70px;
+    margin-bottom: 0px;
+    width: 800px;
+}
+
+#left-side{
+    width:700px;
+    display: flex;
+    flex-direction: column;
+}
+
+#paragrafo{
+    font-size: 15px;
+    width: 450px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+main{
+    display: flex;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.input{
+    margin-top: 20px;
+    width: 350px;
+    border: none;
+    height: 40px;
+    border-radius: 16px;
+}
+
+#checkbox-div{
+    display: flex;
+    margin-top: 0px;
+    
+}
+
+.checkbox, label{
+    cursor: pointer;
+}
+
+#submit-button{
+    width: 175px;
+    border: none;
+    height: 40px;
+    border-radius: 16px;
+    background-color: #16FF00;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#submit-button:hover{
+    width: 195px;
+    height: 45px;
+    transition: 0.3s;
+}
+
+img{
+    width: 500px;
+    margin-top: 50px;
+}
